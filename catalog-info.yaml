@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-repo
+  description: |
+    Sample-repo is an open-source developer repo.
+  links:
+    - title: Website
+      url: https://github.com/gigal00p/sample-repo
+  annotations:
+    github.com/project-slug: sample-repo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  owner: gigal00p
+  lifecycle: experimental
